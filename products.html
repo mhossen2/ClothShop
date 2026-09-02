@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore our premium clothing collection featuring suits, linen shirts, knitwear, and trousers. High quality and timeless designs."
+    />
+    <title>Shop Collection | Apparel Co.</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <div class="container navbar">
+        <a href="index.html" class="logo">Apparel Co.</a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="products.html" class="nav-link active">Products</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container page-section">
+      <h1 class="section-title">Our Collection</h1>
+
+      <!-- Category Filters -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Items</button>
+        <button class="filter-btn" data-filter="outerwear">Outerwear</button>
+        <button class="filter-btn" data-filter="tops">Tops & Shirts</button>
+        <button class="filter-btn" data-filter="bottoms">Trousers</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-category="outerwear">
+          <div class="product-image">
+            <span class="badge">Bestseller</span>
+            <img
+              src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80"
+              alt="Classic Tailored Blazer"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Outerwear</span>
+            <h2 class="product-title">Classic Wool Blazer</h2>
+            <div class="product-price">$249.00</div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-category="tops">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80"
+              alt="Organic Cotton Shirt"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Tops & Shirts</span>
+            <h2 class="product-title">Organic Linen Shirt</h2>
+            <div class="product-price">$89.00</div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-category="bottoms">
+          <div class="product-image">
+            <span class="badge">Sale</span>
+            <img
+              src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80"
+              alt="Slim Fit Chino Trousers"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Trousers</span>
+            <h2 class="product-title">Slim Fit Chinos</h2>
+            <div class="product-price">
+              <span class="old-price">$120.00</span>$95.00
+            </div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-category="tops">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80"
+              alt="Merino Wool Sweater"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Tops & Shirts</span>
+            <h2 class="product-title">Merino Knit Sweater</h2>
+            <div class="product-price">$135.00</div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card" data-category="outerwear">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80"
+              alt="Minimalist Trench Coat"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Outerwear</span>
+            <h2 class="product-title">Minimalist Trench Coat</h2>
+            <div class="product-price">$310.00</div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card" data-category="bottoms">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80"
+              alt="Tailored Pleated Trousers"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">Trousers</span>
+            <h2 class="product-title">Pleated Dress Trousers</h2>
+            <div class="product-price">$145.00</div>
+            <button class="btn add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Apparel Co. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
